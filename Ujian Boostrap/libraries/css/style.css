@@ -1,0 +1,171 @@
+/* navbar */
+
+.navbar {
+    z-index: 1;
+    position: relative;
+}
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 30px;
+    color: #0b63dc !important;
+}
+
+
+/* header */
+
+.header {
+    margin-top: 60px;
+}
+
+.header h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.header span {
+    font-weight: bold;
+    color: #407ed4;
+}
+
+.header p {
+    font-size: 20px;
+    color: #acacac;
+    font-weight: 200;
+}
+
+.header a {
+    font-family: Viga;
+}
+
+.header img {
+    height: 500px;
+    width: 800px;
+    margin-top: -30px;
+}
+
+.image-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* about us */
+
+#about {
+    background-color: #407ed4;
+    margin-top: -10px;
+}
+
+.tombol-us {
+    color: #ffff;
+    font-family: viga;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-us h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-us img {
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 300px;
+}
+
+.about-us p {
+    color: #ffff;
+}
+
+
+/* out team */
+
+#team {
+    background-color: white;
+    margin-top: -20px;
+}
+
+.our-team h3 {
+    font-family: viga;
+    margin-top: -60px;
+}
+
+.card-our-team {
+    margin-top: 20px;
+}
+
+.card-our-team h5 {
+    color: #000 !important;
+    font-size: 15px;
+    font-family: poppins;
+    font: medium;
+}
+
+.card-our-team p {
+    color: #999999;
+    font-size: 10px;
+    line-height: 6px;
+}
+
+
+/* artkel */
+
+#artikel {
+    background-color: #407ed4;
+    margin-top: -15px;
+    height: 500px;
+}
+
+.artikel h3 {
+    font-family: viga;
+    margin-top: -60px;
+    color: white;
+}
+
+.card-artikel {
+    margin-top: 20px;
+}
+
+
+/* footer */
+
+.bg-footer {
+    margin-bottom: 30px;
+    background-color: rgba(77, 119, 233, 0.2);
+}
+
+@media (min-width: 992px) {
+    .navbar-brand,
+    .nav-link {
+        text-shadow: 1px 1px 1px rgba(127, 168, 245, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50% !important;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .about-us img {
+        border-radius: 6px;
+    }
+    .bg-footer {
+        margin-bottom: 30px;
+        background-color: rgba(77, 119, 233, 0.2);
+    }
+}
