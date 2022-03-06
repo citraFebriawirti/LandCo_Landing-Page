@@ -1,2 +1,2 @@
-# tugas-akhir-bootstrap
+# Landing Page Bootstrap
 Tugas Akhir Bootstrap
