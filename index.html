@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <!-- navbar -->
+   <!-- navbar -->
     <section>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
@@ -27,10 +27,10 @@
             </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link active mr-5" href="#">Home <span class="sr-only"></span></a>
-                        <a class="nav-item nav-link mr-5 " href="#">About</a>
-                        <a class="nav-item nav-link mr-5" href="#">Our Team</a>
-                        <a class="nav-item nav-link " href="#">Artikel</a>
+                        <a class="nav-item nav-link active mr-5" href="#home" onclick="return smoothScroll('home')">Home <span class="sr-only"></span></a>
+                        <a class="nav-item nav-link mr-5 " href="#about" onclick="return smoothScroll('about')">About</a>
+                        <a class="nav-item nav-link mr-5" href="team" onclick="return smoothScroll('team')">Our Team</a>
+                        <a class="nav-item nav-link " href="#artikel" onclick="return smoothScroll('artikel')">Artikel</a>
                     </div>
                 </div>
         </nav>
@@ -38,8 +38,9 @@
     </section>
     <!-- end navbar -->
 
+
     <!-- header -->
-    <section>
+    <section id="home">
         <div class="container header text-center text-lg-left">
             <div class="row ">
                 <div class=" col-lg-6 align-self-center ">
@@ -180,15 +181,12 @@
 
     <!-- Footer -->
 
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
-</body>
+    <script src="./libraries/js/main.js"></script>
+   </body>
 
 </html>
